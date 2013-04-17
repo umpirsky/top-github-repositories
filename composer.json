@@ -1,0 +1,35 @@
+{
+    "name": "umpirsky/top-github-repositories",
+    "type": "library",
+    "description": "Orders GitHub repositories by given parameter.",
+    "keywords": ["GitHub", "repository", "repositories", "top", "best"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saša Stamenković",
+            "email": "umpirsky@gmail.com",
+            "homepage": "http://umpirsky.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "knplabs/github-api": "1.2.*"
+    },
+    "require-dev": {
+        "phpspec/phpspec2": "dev-develop"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "Top\\Github\\Repositories\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
